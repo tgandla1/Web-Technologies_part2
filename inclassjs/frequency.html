@@ -1,0 +1,32 @@
+<html>
+<head><title>frequency</title>
+</head>
+<body>
+ <a href="fibo.html">part1</a><br>
+<a href="pattern.html">part2</a><br>
+<a href="sort1.html">part3</a><br>
+<a href="frequency.html">part4</a><br>
+<a href="shuffle.html">part5</a><br>
+<script>
+var arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+var mf = 1;
+var m = 0;
+var item;
+for (var i=0; i<arr1.length; i++)
+{
+        for (var j=i; j<arr1.length; j++)
+        {
+                if (arr1[i] == arr1[j])
+                 m++;
+                if (mf<m)
+                {
+                  mf=m; 
+                  item = arr1[i];
+                }
+        }
+        m=0;
+}
+document.write(item+" ( " +mf +" times ) ") ;
+</script>
+</body>
+</html>

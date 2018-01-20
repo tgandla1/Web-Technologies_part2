@@ -1,0 +1,10 @@
+html:
+
+http://codd.cs.gsu.edu/~tgandla1/Assignment1
+
+CSS:
+
+http://codd.cs.gsu.edu/~tgandla1/Assignment1/homepage.css
+
+GITHUB:
+https://github.com/tgandla1/test1

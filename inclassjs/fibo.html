@@ -1,0 +1,34 @@
+<html>
+ <head><title>Fibonacci Series</title></head>
+ <body>
+ <a href="fibo.html">part1</a><br>
+<a href="pattern.html">part2</a><br>
+<a href="sort1.html">part3</a><br>
+<a href="frequency.html">part4</a><br>
+<a href="shuffle.html">part5</a><br>
+	<script type="text/javascript">
+	
+ 
+		var var1 = 0;
+		var var2 = 1;
+		var var3;
+ 
+		var n = prompt("Enter the limit to generate fibonacci no",0);
+ 
+		document.write(var1+"<br />");
+		document.write(var2+"<br />");
+ 
+		for(var i=3; i <= n;i++)
+		{
+			var3 = var1 + var2;
+			var1 = var2;
+			var2 = var3;
+ 
+			document.write(var3+"<br />");
+		}
+ 
+	
+	</script>
+ 
+ </body>
+</html>
